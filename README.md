@@ -1,6 +1,6 @@
 # aboutme-game
 
-## LAB - 02
+## LAB - 03
 ## About Me
 
 ***I am Amara Al Balkhi. I graduated as a chemical engineer from the University of Jordan.I hope to be a good developer through asac team to combine between chemical engineering and programming.***
@@ -8,7 +8,7 @@
 ## Author: Amara Al Balkhi
 
 ## Links 
-- (Deployed repo)[https://github.com/Amara07/aboutme-game]
+- (Deployed repo)[https://github.com/Amara002/About-me]
 
 ## Reflections and Comments
 - **How did this go, overall?**

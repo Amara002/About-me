@@ -1,53 +1,132 @@
 'use strict';
-let userName = prompt('what\'s your name?' );
-alert('welcome dear ' + userName );
-let first = prompt('Did you study at the University of Jordan?');
-let yes = 'yes';
-let no = 'no';
-let w = 'Welcome';
-if (first.toLowerCase() == 'yes') {
-    console.log('Did you study at the University of Jordan?', yes);
-} else if (first.toLowerCase() == 'no') {
-    console.log('Did you study at the University of Jordan?', no);
-} else {
-    console.log(w);
-}
-
-let second= prompt('Is your age more than 23?');
-if (second.toLowerCase() == 'yes') {
-    console.log('Is your age more than 23?', yes);
-} else if (second.toLowerCase() == 'no') {
-    console.log('Is your age more than 23?', no);
-} else {
-    console.log(w);
-}
-
-let third = prompt('Is your departement chemical engineering?');
-if (third.toLowerCase() == 'yes') {
-    console.log('Is your departement chemical engineering?', yes);
-} else if (third.toLowerCase() == 'no') {
-    console.log('Is your departement chemical engineering?', no);
-} else {
-    console.log(w);
-}
-
-let forth = prompt('Do you have experience in this field?');
-if (forth.toLowerCase() == 'yes') {
-    console.log('Do you have experience in this field?', yes);
-} else if (forth.toLowerCase() == 'no') {
-    console.log('Do you have experience in this field?', no);
-} else {
-    console.log(w);
-}
 
 
-let fifth = prompt('would you like to study chemical engineering?');
-if (fifth.toLowerCase() == 'yes') {
-    console.log('would you like to study chemical engineering?', yes);
-} else if (fifth.toLowerCase() == 'no') {
-    console.log('would you like to study chemical engineering?', no);
-} else {
-    console.log(w);
-}
-console.log('Your name is',userName);
-alert('welcome in my page ' + userName )
+// let userName = prompt('what\'s your name?');
+// while (!userName) {
+//     userName = prompt('please write your name');
+// }
+// alert('welcome dear ' + userName);
+
+// let score = 0;
+// let first = prompt('Did I study at the University of Jordan?');
+// while (!first) {
+//     first = prompt('please answer only yes/y or no/n withoutspaces for previous question');
+
+// }
+// first = first.toLowerCase();
+// if (first == 'yes' || first == 'y') {
+//     alert(first + ' I studied chemical engineering there')
+//     score++;
+// } else if (first == 'no' || first == 'n') {
+//     alert(first + ' you didn\'t guess')
+// } else {
+//     alert('your answer was wrong')
+// }
+
+
+// let second = prompt('Is my age more than 23?');
+// while (!second) {
+//     second = prompt('please answer only yes/y or no/n withoutspaces for previous question');
+// }
+// second.toLowerCase()
+// if (second == 'yes' || second == 'y') {
+//     alert('my age is 26')
+//     score++;
+// } else if (second == 'no' || second == 'n') {
+//     alert('it isn\'t interested')
+// } else {
+//     alert('your answer was wrong')
+// }
+
+// let third = prompt('Is my departement chemical engineering?');
+// while (!third) {
+//     third = prompt('please answer only yes/y or no/n withoutspaces for previous question');
+// }
+// third.toLowerCase()
+// if (third == 'yes' || third == 'y') {
+//     alert('you can continue')
+//     score++;
+// } else if (third == 'no' || third == 'n') {
+//     alert('never mind dear')
+// } else {
+//     alert('your answer was wrong')
+// }
+
+// let forth = prompt('Do you have experience in this field?');
+// while (!forth) {
+//     forth = prompt('please answer only yes/y or no/n withoutspaces for previous question');
+// }
+// forth.toLowerCase()
+// if (forth == 'yes' || forth == 'y') {
+//     alert('I have one year of experience')
+//     score++;
+// } else if (forth == 'no' || forth == 'n') {
+//     alert('I have one year of experience')
+// } else {
+//     alert('your answer was wrong')
+// }
+
+
+// let fifth = prompt('DO I like  chemical engineering?');
+// while (!fifth) {
+//     fifth = prompt('please answer only yes/y or no/n withoutspaces for previous question');
+// }
+// fifth.toLowerCase()
+// if (fifth == 'yes' || fifth == 'y') {
+//     alert('I lik my field')
+//     score++;
+// } else if (fifth == 'no' || fifth == 'n') {
+//     alert('you\'re wrong, I like my field')
+// } else {
+//     alert('sorry to bother you')
+// }
+
+// for (let i = 0; i < 4; i++) {
+//     let sixth = prompt('can you guess how many materials should be passed in the chemical engineering departement? ');
+
+//     if (sixth < 50) {
+//         alert('too low');
+//     } else if (sixth > 50) {
+//         alert('too high');
+//     } else if (sixth == 50) {
+//         alert('you won!')
+//         score++;
+//         break;
+//     } else {
+//         alert('good')
+//     }
+// }
+// alert('the correct answer is 50');
+
+
+
+
+
+
+// for (let i = 0; i < 6; i++) {
+//     let seventh = prompt('give me unit of mass in general?')
+//     let letters = ['kg', 'g', 'lbm', 'pound', 'ton']
+//     let correct = false
+//     for (let j = 0; j < letters.length; j++) {
+
+//         if (seventh == letters[j]) {
+//             correct = true
+//             break;
+//         }
+//     }
+//     if (correct == false) {
+//         alert('that wrong please try again')
+//     } else {
+//         alert('that is right')
+//         score++;
+//         break;
+
+//     }
+// }
+// alert('your answer should be either kg, g, lbm, pound, ton ')
+
+
+
+// alert(`thanks for playing ${userName} your score is ${score} `);
+// console.log('Your name is', userName);
+// alert('welcome in my page ' + userName)

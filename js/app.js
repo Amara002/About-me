@@ -105,7 +105,7 @@ function q5(fifth) {
 }
 q5(fifth);
 
-let sixth='';
+let sixth = '';
 
 function q6(sixth) {
     for (let i = 0; i < 4; i++) {
@@ -131,28 +131,32 @@ alert('the correct answer is 50');
 
 
 
+let seventh = '';
+function q7(seventh) {
+    for (let i = 0; i < 6; i++) {
+        seventh = prompt('give me unit of mass in general?');
+        let letters = ['kg', 'g', 'lbm', 'pound', 'ton'];
+        let correct = false;
+        for (let j = 0; j < letters.length; j++) {
 
-
-for (let i = 0; i < 6; i++) {
-    let seventh = prompt('give me unit of mass in general?')
-    let letters = ['kg', 'g', 'lbm', 'pound', 'ton']
-    let correct = false
-    for (let j = 0; j < letters.length; j++) {
-
-        if (seventh == letters[j]) {
-            correct = true
+            if (seventh == letters[j]) {
+                correct = true;
+                break;
+            }
+        }
+        if (correct == false) {
+            alert('that wrong please try again');
+        } else {
+            alert('that is right');
+            score++;
             break;
+
         }
     }
-    if (correct == false) {
-        alert('that wrong please try again')
-    } else {
-        alert('that is right')
-        score++;
-        break;
-
-    }
+    return (seventh);
 }
+q7(seventh);
+
 alert('your answer should be either kg, g, lbm, pound, ton ')
 
 

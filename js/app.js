@@ -13,15 +13,29 @@ while (!first) {
     first = prompt('please answer only yes/y or no/n withoutspaces for previous question');
 
 }
-first = first.toLowerCase();
-if (first == 'yes' || first == 'y') {
-    alert(first + ' I studied chemical engineering there')
-    score++;
-} else if (first == 'no' || first == 'n') {
-    alert(first + ' you didn\'t guess')
-} else {
-    alert('your answer was wrong')
+
+
+let score = 0;
+let first = '';
+function q1(first) {
+     first= prompt('Did I study at the University of Jordan?');
+    while (!first) {
+        first = prompt('please answer only yes/y or no/n withoutspaces for previous question');
+
+    }
+    first = first.toLowerCase();
+    if (first == 'yes' || first == 'y') {
+        alert(first + ' I studied chemical engineering there')
+        score++;
+    } else if (first == 'no' || first == 'n') {
+        alert(first + ' you didn\'t guess')
+    } else {
+        alert('your answer was wrong')
+    }
+    return (first);
 }
+q1(first);
+
 
 
 let second = prompt('Is my age more than 23?');

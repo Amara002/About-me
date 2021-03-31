@@ -19,9 +19,9 @@
   > It took two hours from me. I think I will do that by ten minutes.
 
 
-  # I was Driver on: @Amara002 [Repo](https://github.com/Fadi-Nayef/About-me)
+  # I @Fadi-Nayef was Driver on: @Amara002 [Repo](https://github.com/Fadi-Nayef/About-me)
 
-*live [URl](https://fadi-nayef.github.io/About-me/)*
+*live [URl](https://fadi-nayef.github.io/About-me/)* </br>
  **The navigator is Amara on [Amara's repo](https://github.com/Amara002/About-me)**
 
 

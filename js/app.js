@@ -70,58 +70,64 @@ function q3(third) {
 q3(third);
 
 let forth = prompt('Do you have experience in this field?');
-function q4(forth){
-while (!forth) {
-    forth = prompt('please answer only yes/y or no/n withoutspaces for previous question');
-}
-forth.toLowerCase()
-if (forth == 'yes' || forth == 'y') {
-    alert('I have one year of experience')
-    score++;
-} else if (forth == 'no' || forth == 'n') {
-    alert('I have one year of experience')
-} else {
-    alert('your answer was wrong')
-}
-return(forth);
+function q4(forth) {
+    while (!forth) {
+        forth = prompt('please answer only yes/y or no/n withoutspaces for previous question');
+    }
+    forth.toLowerCase()
+    if (forth == 'yes' || forth == 'y') {
+        alert('I have one year of experience')
+        score++;
+    } else if (forth == 'no' || forth == 'n') {
+        alert('I have one year of experience')
+    } else {
+        alert('your answer was wrong')
+    }
+    return (forth);
 }
 q4(forth);
 
 let fifth = prompt('DO I like  chemical engineering?');
-function q5(fifth){
-while (!fifth) {
-    fifth = prompt('please answer only yes/y or no/n withoutspaces for previous question');
-}
-fifth.toLowerCase()
-if (fifth == 'yes' || fifth == 'y') {
-    alert('I lik my field')
-    score++;
-} else if (fifth == 'no' || fifth == 'n') {
-    alert('you\'re wrong, I like my field')
-} else {
-    alert('sorry to bother you')
-}
-
-for (let i = 0; i < 4; i++) {
-    let sixth = prompt('can you guess how many materials should be passed in the chemical engineering departement? ');
-
-    if (sixth < 50) {
-        alert('too low');
-    } else if (sixth > 50) {
-        alert('too high');
-    } else if (sixth == 50) {
-        alert('you won!')
+function q5(fifth) {
+    while (!fifth) {
+        fifth = prompt('please answer only yes/y or no/n withoutspaces for previous question');
+    }
+    fifth.toLowerCase()
+    if (fifth == 'yes' || fifth == 'y') {
+        alert('I lik my field')
         score++;
-        break;
+    } else if (fifth == 'no' || fifth == 'n') {
+        alert('you\'re wrong, I like my field')
     } else {
-        alert('good')
-    } 
+        alert('sorry to bother you')
+    }
+    return (fifth);
 }
-  return(fifth);}
 q5(fifth);
 
-alert('the correct answer is 50');
+let sixth='';
 
+function q6(sixth) {
+    for (let i = 0; i < 4; i++) {
+        sixth = prompt('can you guess how many materials should be passed in the chemical engineering departement? ');
+        parseInt(sixth);
+        if (sixth < 50) {
+            alert('too low');
+        } else if (sixth > 50) {
+            alert('too high');
+        } else if (sixth == 50) {
+            alert('you won!')
+            score++;
+            break;
+        } else {
+            alert('good')
+        }
+    }
+    return (sixth);
+}
+q6(sixth);
+
+alert('the correct answer is 50');
 
 
 

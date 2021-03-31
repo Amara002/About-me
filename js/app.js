@@ -34,9 +34,9 @@ q1(first);
 
 let second = prompt('Is my age more than 23?');
 function q2(second) {
-while (!second) {
-    second = prompt('please answer only yes/y or no/n withoutspaces for previous question');
-}
+    while (!second) {
+        second = prompt('please answer only yes/y or no/n withoutspaces for previous question');
+    }
     second.toLowerCase()
     if (second == 'yes' || second == 'y') {
         alert('my age is 26')
@@ -52,20 +52,25 @@ while (!second) {
 q2(second);
 
 let third = prompt('Is my departement chemical engineering?');
-while (!third) {
-    third = prompt('please answer only yes/y or no/n withoutspaces for previous question');
+function q3(third) {
+    while (!third) {
+        third = prompt('please answer only yes/y or no/n withoutspaces for previous question');
+    }
+    third.toLowerCase()
+    if (third == 'yes' || third == 'y') {
+        alert('you can continue')
+        score++;
+    } else if (third == 'no' || third == 'n') {
+        alert('never mind dear')
+    } else {
+        alert('your answer was wrong')
+    }
+    return (third);
 }
-third.toLowerCase()
-if (third == 'yes' || third == 'y') {
-    alert('you can continue')
-    score++;
-} else if (third == 'no' || third == 'n') {
-    alert('never mind dear')
-} else {
-    alert('your answer was wrong')
-}
+q3(third);
 
 let forth = prompt('Do you have experience in this field?');
+function q4(forth){
 while (!forth) {
     forth = prompt('please answer only yes/y or no/n withoutspaces for previous question');
 }
@@ -78,9 +83,12 @@ if (forth == 'yes' || forth == 'y') {
 } else {
     alert('your answer was wrong')
 }
-
+return(forth);
+}
+q4(forth);
 
 let fifth = prompt('DO I like  chemical engineering?');
+function q5(fifth){
 while (!fifth) {
     fifth = prompt('please answer only yes/y or no/n withoutspaces for previous question');
 }
@@ -107,8 +115,11 @@ for (let i = 0; i < 4; i++) {
         break;
     } else {
         alert('good')
-    }
+    } 
 }
+  return(fifth);}
+q5(fifth);
+
 alert('the correct answer is 50');
 
 

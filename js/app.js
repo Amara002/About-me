@@ -87,8 +87,8 @@ return(forth);
 }
 q4(forth);
 
-
 let fifth = prompt('DO I like  chemical engineering?');
+function q5(fifth){
 while (!fifth) {
     fifth = prompt('please answer only yes/y or no/n withoutspaces for previous question');
 }
@@ -115,8 +115,11 @@ for (let i = 0; i < 4; i++) {
         break;
     } else {
         alert('good')
-    }
+    } 
 }
+  return(fifth);}
+q5(fifth);
+
 alert('the correct answer is 50');
 
 

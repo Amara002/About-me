@@ -70,6 +70,7 @@ function q3(third) {
 q3(third);
 
 let forth = prompt('Do you have experience in this field?');
+function q4(forth){
 while (!forth) {
     forth = prompt('please answer only yes/y or no/n withoutspaces for previous question');
 }
@@ -82,6 +83,9 @@ if (forth == 'yes' || forth == 'y') {
 } else {
     alert('your answer was wrong')
 }
+return(forth);
+}
+q4(forth);
 
 
 let fifth = prompt('DO I like  chemical engineering?');

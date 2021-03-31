@@ -22,6 +22,8 @@
   # I was Driver on: @Amara002 [Repo](https://github.com/Fadi-Nayef/About-me)
 
 *live [URl](https://fadi-nayef.github.io/About-me/)*
+ **The navigator is Amara on [Amara's repo](https://github.com/Amara002/About-me)**
+
 
 
 - **How did the pair programming process go in general?**

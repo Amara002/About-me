@@ -8,17 +8,12 @@ while (!userName) {
 alert('welcome dear ' + userName);
 
 let score = 0;
-let first = prompt('Did I study at the University of Jordan?');
-while (!first) {
-    first = prompt('please answer only yes/y or no/n withoutspaces for previous question');
-
-}
 
 
-let score = 0;
 let first = '';
+
 function q1(first) {
-     first= prompt('Did I study at the University of Jordan?');
+    first = prompt('Did I study at the University of Jordan?');
     while (!first) {
         first = prompt('please answer only yes/y or no/n withoutspaces for previous question');
 
@@ -37,20 +32,24 @@ function q1(first) {
 q1(first);
 
 
-
 let second = prompt('Is my age more than 23?');
+function q2(second) {
 while (!second) {
     second = prompt('please answer only yes/y or no/n withoutspaces for previous question');
 }
-second.toLowerCase()
-if (second == 'yes' || second == 'y') {
-    alert('my age is 26')
-    score++;
-} else if (second == 'no' || second == 'n') {
-    alert('it isn\'t interested')
-} else {
-    alert('your answer was wrong')
+    second.toLowerCase()
+    if (second == 'yes' || second == 'y') {
+        alert('my age is 26')
+        score++;
+    } else if (second == 'no' || second == 'n') {
+        alert('it isn\'t interested')
+    } else {
+        alert('your answer was wrong')
+    }
+    return (second);
 }
+
+q2(second);
 
 let third = prompt('Is my departement chemical engineering?');
 while (!third) {
